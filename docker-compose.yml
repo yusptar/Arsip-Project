@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   php-apache-environment:
-    image: 240801/UAS
+    image: 240801/uas
     container_name: php-apache
     depends_on:
       - db
@@ -23,7 +23,7 @@ services:
       - "3306:3306"
     volumes:
       - db:/var/lib/mysql
-      - ./erp3.sql:/docker-entrypoint-initdb.d/erp3.sql
+      - ./arsipdb.sql:/docker-entrypoint-initdb.d/arsipdb.sql
     networks:
       - backend
 
