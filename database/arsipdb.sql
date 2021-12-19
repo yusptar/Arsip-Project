@@ -41,7 +41,7 @@ CREATE TABLE `tbarsip` (
 --
 
 INSERT INTO `tbarsip` (`id`, `no_surat`, `kategori`, `judul`, `data_surat`, `tgl_arsip`) VALUES
-
+(6, '123', 'Nota Dinas', 'Perkumpulan Mahasiswa Tahun Ajaran 2022', 'Perkumpulan Mahasiswa Tahun Ajaran 2022.pdf', '2021-10-26 04:04:42');
 --
 -- Indexes for dumped tables
 --
